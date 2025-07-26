@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class mainn {
+public class SnakePattern{
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
@@ -31,6 +31,7 @@ public class mainn {
                 }
             }
             System.out.println("");
+            sc.close();
 
         }
     }
